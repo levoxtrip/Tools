@@ -8,7 +8,7 @@ import ToolsOverviewPage from "./pages/ToolsOverviewPage";
 
 function App() {
   return (
-    <BrowserRouter basename="/Home">
+    <BrowserRouter basename="/">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/categories" element={<CategoriesPage />} />
