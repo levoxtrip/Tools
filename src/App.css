@@ -1,14 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import "tailwindcss";
+
 /* Import fonts using @import directive */
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
-/* Remove the incorrect import */
-/* @import "tailwindcss"; */
-
-/* Custom theme using theme directive */
 @layer base {
   :root {
     --font-inter: "Inter", sans-serif;
