@@ -11,11 +11,15 @@ const CategoriesPage: React.FC = () => {
     <div>
       <div className="cat-view">
         {allCategories.map((category) => (
-          <div className="card">
-            <Link key={category} to={`/categories/${category}`}>
+          <Link
+            key={category}
+            to={`/categories/${category}`}
+            className="card block" // add block to ensure full clickable area
+          >
+            <div>
               <h2>{category}</h2>
-            </Link>
-          </div>
+            </div>
+          </Link>
         ))}
       </div>
     </div>

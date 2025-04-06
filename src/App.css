@@ -22,16 +22,20 @@
 
 @layer component {
   .card {
-    @apply relative w-full max-w-2xl min-h-48 flex shadow-md rounded-2xl p-8 hover:shadow-lg transition-all grid grid-cols-1 items-center;
+    @apply relative block w-full max-w-2xl min-h-48 
+      p-8 rounded-2xl shadow-md transition-all 
+      hover:shadow-lg hover:bg-white 
+      focus:outline-none focus:ring-2 focus:ring-blue-500 
+      grid grid-cols-1 items-center;
   }
   .cat-view {
     @apply flex grid grid-cols-1 md:grid-cols-3 gap-4;
   }
   .back-btn {
-    @apply absolute top-5 left-5 rounded-2xl p-4 bg-blue-800 text-white;
+    @apply absolute top-5 left-5 rounded-md font-bold p-4 bg-blue-800 text-white;
   }
   .info-btn {
-    @apply absolute top-3 right-3 rounded-2xl p-4 bg-blue-800 text-white;
+    @apply absolute top-3 right-3 rounded-md font-bold p-4 bg-blue-800 text-white;
   }
 }
 

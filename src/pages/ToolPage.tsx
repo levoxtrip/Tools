@@ -19,7 +19,7 @@ const ToolPage = () => {
   const info = InformationData[tool.information];
   return (
     <div>
-      <BackBtn to={`/categories/${tool.category}`} text={"<"} />
+      <BackBtn to={`/categories/${tool.category}`} text={"Back"} />
       <div className="card">
         {info && <InfoBtn onToogleShowTool={handleInfoBtnClicked} />}
 
