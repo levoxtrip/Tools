@@ -38,10 +38,10 @@
     @apply flex grid grid-cols-1 md:grid-cols-3 gap-4;
   }
   .back-btn {
-    @apply absolute top-5 left-5;
+    @apply bg-blue-800 absolute top-5 left-5;
   }
   .info-btn {
-    @apply absolute top-3 right-3;
+    @apply bg-blue-800 absolute top-3 right-3;
   }
 }
 
