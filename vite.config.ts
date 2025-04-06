@@ -1,9 +1,9 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
-import tailwindcss from "@tailwindcss/vite";
+// Remove the @tailwindcss/vite import
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/", // Changed from "/Tools/" to "/"
-  plugins: [react(), tailwindcss()],
+  base: "/",
+  plugins: [react()], // Remove tailwindcss() from plugins
 });
