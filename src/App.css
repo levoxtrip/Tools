@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-inter: "Inter", sans-serif;
+}
+@layer base {
+  body {
+    @apply bg-gray-100 flex justify-center items-center min-h-screen;
+  }
+
+  h1 {
+    @apply font-inter  text-2xl md:text-4xl font-bold italic text-black my-10;
+  }
+  h2 {
+    @apply font-inter text-2xl md:text-3xl italic font-bold  text-blue-800;
+  }
+  p {
+    @apply font-inter text-black;
+  }
+}
+
+@layer component {
+  .card {
+    @apply relative w-full max-w-2xl min-h-48 flex shadow-md rounded-2xl p-8 hover:shadow-lg transition-all grid grid-cols-1 items-center;
+  }
+  .cat-view {
+    @apply flex grid grid-cols-1 md:grid-cols-3 gap-4;
+  }
+  .back-btn {
+    @apply absolute top-5 left-5;
+  }
+  .info-btn {
+    @apply absolute top-3 right-3;
+  }
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: left;
+}
