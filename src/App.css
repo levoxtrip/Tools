@@ -1,29 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
-@import "tailwindcss";
 
-@theme {
-  --font-inter: "Inter", sans-serif;
-}
+/* Import fonts using @import directive */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/* Remove the incorrect import */
+/* @import "tailwindcss"; */
+
+/* Custom theme using theme directive */
 @layer base {
+  :root {
+    --font-inter: "Inter", sans-serif;
+  }
+
   body {
     @apply bg-gray-100 flex justify-center items-center min-h-screen;
   }
 
   h1 {
-    @apply font-inter  text-2xl md:text-4xl font-bold italic text-black my-10;
+    @apply font-inter text-2xl md:text-4xl font-bold italic text-black my-10;
   }
   h2 {
-    @apply font-inter text-2xl md:text-3xl italic font-bold  text-blue-800;
+    @apply font-inter text-2xl md:text-3xl italic font-bold text-blue-800;
   }
   p {
     @apply font-inter text-black;
   }
 }
 
-@layer component {
+@layer components {
+  /* Note: Fixed typo from "component" to "components" */
   .card {
     @apply relative w-full max-w-2xl min-h-48 flex shadow-md rounded-2xl p-8 hover:shadow-lg transition-all grid grid-cols-1 items-center;
   }
