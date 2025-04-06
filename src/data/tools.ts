@@ -1,5 +1,4 @@
 import { ToolDataT } from "./ToolDataT";
-import { InformationDataT } from "./InformationDataT";
 export const tools: ToolDataT[] = [
   //-------------------------ACTION-----------------------------
   {

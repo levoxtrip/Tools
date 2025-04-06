@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { tools } from "../data/tools";
 import { useParams } from "react-router";
 import BackBtn from "../component/BackBtn";
@@ -8,12 +8,15 @@ const ToolPage = () => {
   const { toolId } = useParams<{ toolId: string }>();
   const [showTool, setShowTool] = useState<Boolean>(true);
   const tool = tools.find((tool) => tool.id === toolId);
-  const info = InformationData[tool.information];
 
   const handleInfoBtnClicked = () => {
     setShowTool(!showTool);
   };
-
+  if (!tool) {
+    // Handle the case where tool is undefined
+    return <div>Tool not found</div>; // or some other fallback UI
+  }
+  const info = InformationData[tool.information];
   return (
     <div>
       <BackBtn to={`/categories/${tool.category}`} text={"<"} />

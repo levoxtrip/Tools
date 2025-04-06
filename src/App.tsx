@@ -3,7 +3,6 @@ import Home from "./pages/Home";
 import CategoriesPage from "./pages/CategoriesPage";
 import ToolPage from "./pages/ToolPage";
 import NotFound from "./pages/NotFound";
-import { useState } from "react";
 import "./App.css";
 import ToolsOverviewPage from "./pages/ToolsOverviewPage";
 

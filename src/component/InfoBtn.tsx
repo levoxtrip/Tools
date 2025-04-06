@@ -1,6 +1,8 @@
-import React from "react";
+interface InfoBtnProps {
+  onToogleShowTool: () => void; // Define the type of the onToogleShowTool prop as a function
+}
 
-const InfoBtn = ({ onToogleShowTool }) => {
+const InfoBtn: React.FC<InfoBtnProps> = ({ onToogleShowTool }) => {
   const toggleTollpageState = () => {
     if (onToogleShowTool) {
       onToogleShowTool();
