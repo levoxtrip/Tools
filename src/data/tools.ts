@@ -11,13 +11,33 @@ export const tools: ToolDataT[] = [
       `,
     category: "Action",
     information: "Action",
-  },
+  },{
+  id: "Write Action Steps",
+  title: "Write Action Steps",
+  description: `
+  Take a piece of paper and write for one to five minutes what next steps you are doing now!
+  What is the smallest step/action I can take?
+  It also can help to visualize the steps and the possible outcome of it.
+    `,
+  category: "Action",
+  information: "Action",
+},
   {
     id: "PreGameRoutine",
     title: "Pregame Routine",
     description: `
       Create a starting behavior that is so easy and automatic that you can't say no - no motivation necessary.
       It should lead you to you doing the wanted action.
+      `,
+    category: "Action",
+    information: "Action",
+  },
+  {
+    id: "Ritual",
+    title: "Ritual",
+    description: `
+      Elite performer have rituals.
+      Say a special mantra before you executing the discipline - personally meaningful and straightforward.
       `,
     category: "Action",
     information: "Action",
@@ -31,7 +51,19 @@ export const tools: ToolDataT[] = [
     category: "Action",
     information: "Info",
   },
+  //------------------------CREATIVITY-----------------------------
+  {
+    id: "BoreYourself",
+    title: "Boredom",
+    description: `
+        Your Attention span expands when you expose your brain to less stimulation and to more boredom. Try to have more phases of pure thinking/boredom. Be without a distraction and just a notebook one day without technology.
+      `,
+    category: "Creativity",
+    information: "Info",
+  },
 
+
+ 
   //-------------------------DECISION MAKING-----------------------------
   {
     id: "DeathBedTest",
@@ -44,6 +76,26 @@ What will you regret not doing
     category: "Decision Making",
     information: "Info",
   },
+  {
+    id: "Essential",
+    title: "Essential",
+    description: `
+      Is this action/thing essential?
+      What happens if you don't do it?
+      `,
+    category: "Decision Making",
+    information: "Info",
+  },
+  {
+    id: "ConsiderOptions",
+    title: "Consider the options",
+    description: `
+      Take one minute and consider what options you have and what consequences they have?
+      You want to quit? What consequences has that?
+      `,
+    category: "Decision Making",
+    information: "Info",
+  },
   //-------------------------DOPAMIN-----------------------------
   {
     id: "MicroSucks",
@@ -51,7 +103,7 @@ What will you regret not doing
     description: `
          - Do a task you dislike first thing in the morning, like cleaning a bathroom or taking out the trash. This helps you build resilience by tackling unpleasant tasks head-on.
           `,
-    category: "Decision Making",
+    category: "Dopamin",
     information: "Info",
   },
   {
@@ -60,7 +112,7 @@ What will you regret not doing
     description: `
       Try to do nothing for 20 minutes. Take a journal to write down what comes up in your mind.
           `,
-    category: "Decision Making",
+    category: "Dopamin",
     information: "Info",
   },
 
@@ -71,7 +123,7 @@ What will you regret not doing
     description: `
      If you want to feel physically and mentally energized you have to move your body - exercise or walking.
       `,
-    category: "Decision Making",
+    category: "Energy",
     information: "Info",
   },
   //-------------------------SELF-LOVE-----------------------------
@@ -80,6 +132,15 @@ What will you regret not doing
     title: "Self Acceptance List",
     description: `
               What are three qualities or characteristics about yourself that you genuinely appreciate?
+              `,
+    category: "Self-love",
+    information: "Info",
+  },
+  {
+    id: "PositiveMantra",
+    title: "Positive Mantra",
+    description: `
+             Create a positive mantra about yourself.
               `,
     category: "Self-love",
     information: "Info",
@@ -156,9 +217,27 @@ Then continue with 4,3,2,1 on every step
     information: "Info",
   },
   {
+    id: "Count54321",
+    title: "Count down 5-4-3-2-1",
+    description: `
+    Count down from 5 to interrupt your thought patterns.
+`,
+    category: "Anxiety",
+    information: "Info",
+  },
+
+  {
     id: "HatePlaylist",
     title: "Hate Playlist",
     description: `Listen to music that you hate to keep the focus of the spiraling mind.
+`,
+    category: "Anxiety",
+    information: "Info",
+  },
+  {
+    id: "RunningToQuietMind",
+    title: "Running to quiet mind",
+    description: `Go out to run. It helps to quiet an anxious and active mind.
 `,
     category: "Anxiety",
     information: "Info",
@@ -207,6 +286,15 @@ Then continue with 4,3,2,1 on every step
     id: "ProblemSolvingWalk",
     title: "Problem Solving Walk",
     description: `Go for a walk to think about a problem that you are facing right now.
+    `,
+    category: "Problem solving",
+    information: "Info",
+  },
+  {
+    id: "BodyStillMindActive",
+    title: "Body Still Mind Active",
+    description: `
+    Lay down, body completely still and the mind active - try thinking in full sentences. Think through a problem.
     `,
     category: "Problem solving",
     information: "Info",
@@ -386,6 +474,16 @@ Write down in notebook a chart of days 1-31 and and for every day you use a dot.
     information: "Info",
   },
   {
+    id: "IntermittentReward",
+    title: "Intermittent Reward",
+    description: `
+    Set up specific rewards that you can only access once you hit a milestone or complete a project. This could be treating yourself to a favorite meal, a leisure activity, or some time off.
+    Flip a coin to decide if you get the reward or not.
+    `,
+    category: "Motivation",
+    information: "Info",
+  },
+  {
     id: "TwoEnvelopesGratification",
     title: "Gamify Task: Two Envelopes Treat",
     description: `
@@ -431,14 +529,44 @@ Write down in notebook a chart of days 1-31 and and for every day you use a dot.
     category: "Motivation",
     information: "Info",
   },
-  // ----------------------- RELAXATION --------------------------------
   {
-    id: "NatureBathing",
-    title: "Nature Bathing",
-    description: `Go out into a park or nature. If not possible watch a 4k video of nature walks on youtube.`,
-    category: "Relaxation",
+    id: "FastMusic",
+    title: "Listen to fast music",
+    description: `
+      Listen to deep ambient techno playlist in spotify when you want to work and focus.
+    `,
+    category: "Motivation",
     information: "Info",
   },
+  {
+    id: "Cliffhanger",
+    title: "Cliffhanger",
+    description: `
+      Hemingway left his work at an interesting moment, it became easier to return to his typewriter the next day. Think of it like a TV show cliffhanger.
+    `,
+    category: "Motivation",
+    information: "Info",
+  },
+  {
+    id: "PractiseDiscomfort",
+    title: "Practice discomfort",
+    description: `
+     Do something that creates discomfort in your mind but is still save to do! Reflect afterwards how you overcome the discomfort.
+    `,
+    category: "Motivation",
+    information: "Info",
+  },
+  {
+    id: "SuccessJar",
+    title: "Success jar",
+    description: `
+     Write down your achievements, however small on a slip of paper and drop them in a jar. When you feeling down, pull one out to remind yourself of past successes.
+    `,
+    category: "Motivation",
+    information: "Info",
+  },
+  // ----------------------- RELAXATION --------------------------------
+
   {
     id: "Painting",
     title: "Paint",
