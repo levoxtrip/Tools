@@ -87,6 +87,15 @@ What will you regret not doing
     information: "Info",
   },
   {
+    id: "OtherPersonPerspective",
+    title: "Other persons perspective",
+    description: `
+      How would a person that normally has a different view or perspective on this think about this decision/problem?
+      `,
+    category: "Decision Making",
+    information: "Info",
+  },
+  {
     id: "ConsiderOptions",
     title: "Consider the options",
     description: `
@@ -484,6 +493,20 @@ Write down in notebook a chart of days 1-31 and and for every day you use a dot.
     information: "Info",
   },
   {
+    id: "MentalRewards",
+    title: "Mental Rewards",
+    description: `
+    After finishing a task give yourself a mental reward like:
+    - fist bump
+    - 30 seconds dance
+    - power position like sport athletes do.
+
+    Let it randomly decide which one you do.
+    `,
+    category: "Motivation",
+    information: "Info",
+  },
+  {
     id: "TwoEnvelopesGratification",
     title: "Gamify Task: Two Envelopes Treat",
     description: `
@@ -515,7 +538,10 @@ Write down in notebook a chart of days 1-31 and and for every day you use a dot.
     id: "DailyDeadline",
     title: "Dealy Deadline",
     description: `Set a task that you have to finish today. Set stakes like:
-    "If I don't achieve this today I will invite somebody to something that I don't like but somebody else loves.`,
+    "If I don't achieve this today I will invite somebody to something that I don't like but somebody else loves." 
+    
+    Or tell somebody else about the deadline. This creates external pressure.
+    `,
     category: "Motivation",
     information: "Info",
   },
