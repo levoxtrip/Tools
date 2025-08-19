@@ -124,6 +124,20 @@ What will you regret not doing
     category: "Dopamin",
     information: "Info",
   },
+  //-------------------EMOTIONS/THOUGHTS---------------
+    {
+    id: "WatchTheDrama",
+    title: "Watch The Drama",
+    description: `
+    How do you feel?
+    Which emotions do you get from this thought?
+    Don't resist your thoughts - we want to understand the thoughts better.
+
+    Go inwards and get quiet to see what's happening inside.
+`,
+    category: "Emotions",
+    information: "Info",
+  },
 
   //---------------------------ENERGY-------------------
   {
@@ -226,6 +240,16 @@ Then continue with 4,3,2,1 on every step
     information: "Info",
   },
   {
+    id: "ReframeAnxiety",
+    title: "Reframe Anxious Thoughts",
+    description: `Is this thought or feeling negative/alarming or positive and comforting or even neutral?
+    What is the evidence for and against this thought?
+    Can this situation be reframed more positively?
+`,
+    category: "Anxiety",
+    information: "Info",
+  },
+  {
     id: "Count54321",
     title: "Count down 5-4-3-2-1",
     description: `
@@ -234,6 +258,7 @@ Then continue with 4,3,2,1 on every step
     category: "Anxiety",
     information: "Info",
   },
+
 
   {
     id: "HatePlaylist",
@@ -479,6 +504,13 @@ Write down in notebook a chart of days 1-31 and and for every day you use a dot.
     id: "WimHofHSDR",
     title: "NSDR + Wim Hof",
     description: `When you are unmotivated and tired do 10-20 min NSDR and Wim Hof breathing afterswards.`,
+    category: "Motivation",
+    information: "Info",
+  },
+  {
+    id: "ReframeMotivation",
+    title: "Reframe Resistance",
+    description: `Reframe the feeling of exhaustion or resistance by saying that his is actually the moment where your mind and body get stronger.`,
     category: "Motivation",
     information: "Info",
   },
