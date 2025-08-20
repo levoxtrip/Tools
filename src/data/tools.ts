@@ -138,6 +138,20 @@ What will you regret not doing
     category: "Emotions",
     information: "Info",
   },
+   {
+    id: "YouNameTechnique",
+    title: "Reframe with your own name and you",
+    description: `
+    Instead of thinking out of the I position try to reframe with "You" and your name.
+    How are you [name] managing this situation?
+    How are you [name] feeling?
+
+    Answer with yourself in the 3rd position. This creates the necessary distance between yourself and the situation.
+`,
+    category: "Emotions",
+    information: "Info",
+  },
+
 
   //---------------------------ENERGY-------------------
   {
