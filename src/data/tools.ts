@@ -239,6 +239,17 @@ What will you regret not doing
     category: "Mindfullness",
     information: "Info",
   },
+  {
+    id: "WatchTheMind",
+    title: "Watch The Mind",
+    description: `
+      Sit still and watch what thoughts are coming up from your mind. Watch the dialog, don't resist any thoughts - let the thoughts go by like clouds or leaves on a river.
+
+      Another version is to watch your thoughts - What do you feel? Direct your attention into your body and see if there is any tension?
+      `,
+    category: "Mindfullness",
+    information: "Info",
+  },
   //-------------------------ANXIETY-----------------------------
   {
     id: "Notice54321",
