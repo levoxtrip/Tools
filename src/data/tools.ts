@@ -126,6 +126,16 @@ What will you regret not doing
   },
   //-------------------EMOTIONS/THOUGHTS---------------
     {
+    id: "SmallWinsReflection",
+    title: "Small wins reflection",
+    description: `
+    What are the small/big wins of today/your week?
+`,
+    category: "Emotions",
+    information: "Info",
+  },
+
+    {
     id: "WatchTheDrama",
     title: "Watch The Drama",
     description: `
@@ -151,6 +161,7 @@ What will you regret not doing
     category: "Emotions",
     information: "Info",
   },
+
 
 
   //---------------------------ENERGY-------------------
