@@ -134,6 +134,15 @@ What will you regret not doing
     category: "Emotions",
     information: "Info",
   },
+  {
+    id: "PassThroughMe",
+    title: "Pass Through Me",
+    description: `
+    Allow whatever causes a negative reaction to pass right through you. Feel yourself becoming transparent. Imagining yourself becoming transparent to the external cause of the reaction.
+`,
+    category: "Emotions",
+    information: "Info",
+  },
 
     {
     id: "WatchTheDrama",
@@ -398,7 +407,18 @@ Then continue with 4,3,2,1 on every step
     category: "Happiness",
     information: "Giving",
   },
+{
+    id: "Adventures",
+    title: "Adventures",
+    description: `Incorporate big and small adventures into your routine life. 
+    
+    Big adventures last for three to five hours and can happen once a week. While small adventures last an hour or less and can be done in your break or in the evening. 
 
+    Try to plan two adventures a week. This can bring excitement and richness to our weekly life without exhausting or bankrupting us.
+    `,
+    category: "Happiness",
+    information: "Info",
+  },
   {
     id: "ReplayWriting",
     title: "Replay Writing",
@@ -556,6 +576,15 @@ Write down in notebook a chart of days 1-31 and and for every day you use a dot.
     description: `
     Set up specific rewards that you can only access once you hit a milestone or complete a project. This could be treating yourself to a favorite meal, a leisure activity, or some time off.
     Flip a coin to decide if you get the reward or not.
+    `,
+    category: "Motivation",
+    information: "Info",
+  },
+  {
+    id: "BurnOrNoBurn",
+    title: "Burn Money",
+    description: `
+    Get 20€/50€/100€ bill and put it on your desk - if you don't want to do something - "Am I gonna do this now or you burn the bill!"
     `,
     category: "Motivation",
     information: "Info",
