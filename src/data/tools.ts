@@ -420,6 +420,14 @@ Then continue with 4,3,2,1 on every step
     information: "Info",
   },
   {
+    id: "ChangeOfScenery",
+    title: "Change of Scenery",
+    description: `Sometimes, a change in environment can do wonders. Try working in a new location, whether it’s a different room, a café, or a park.
+    `,
+    category: "Happiness",
+    information: "Info",
+  },
+  {
     id: "ReplayWriting",
     title: "Replay Writing",
     description: `Write about a positive experience for 5/10/20 mins`,
