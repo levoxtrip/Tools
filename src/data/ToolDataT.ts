@@ -4,6 +4,6 @@ export interface ToolDataT {
   title: string;
   description: string;
   information: string;
-  //layout:ToolLayout;
-  //videourl?:string;
+  feeling: "impulse" | "focus" | "connect" | "relax";
+  durationMinutes?: number;
 }
